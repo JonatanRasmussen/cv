@@ -31,6 +31,16 @@
       order: -1; /* Ensures icon is before text */
     }
 
+    .small-heading {
+      font-size: 0.94em;
+    }
+
+    /*
+    section#profile > p {
+      margin-top: 0.8em;
+    }
+    */
+
   </style>
 </head>
 <body>
@@ -42,7 +52,7 @@
       </h1>
       <h2 class="title">Curriculum Vitae (CV)</h2>
     </div>
-    <img src="cv_resume_files/picture.png">
+    <img src="cv_resume_files/picture_blank.png">
     <ul class="details">
       <!-- email -->
       <li>
@@ -52,7 +62,7 @@
       <!-- address -->
       <li itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
         <span>
-          <span itemprop="addressLocality">2840 Søllerød, </span>
+          <span itemprop="addressLocality">2850 Nærum, </span>
           <span itemprop="addressCountry">Denmark</span>
         </span>
         <i class="fas fa-map-marker-alt"></i>
@@ -63,37 +73,75 @@
         <i class="fas fa-mobile-alt"></i>
       </li>
       <!-- date of birth / age -->
+      <!---->
       <li>
         <span>10/06/1998</span>
         <i class="fas fa-birthday-cake"></i>
       </li>
+      <!---->
     </ul>
   </header>
 
   <section id="profile" class="level2">
     <h2>About</h2>
-    <p>Hi, my name is Jonatan, and I am studying Human-Centered AI (MSc) at DTU.
-      My academic background is a blend of Data Science, Mathematics and Computer Science, with fluency in both Python and C#.
-      I have experience with TensorFlow, PyTorch, .NET, C++, Lua, Java, JavaScript, React and Flask.
-      You can expect me to be an open-minded learner with great ambitions and a can-do attitude.
-      Peers describe me as responsible and independant, with a keen eye for the needs of others.</p>
+    <p>Jonatan Rasmussen, MSc in Human-Centered Artificial Intelligence (DTU).</p>
+    <p>
+      Engineer specialized in applied machine learning and production-oriented AI systems.
+      I have built data-driven tools used by 1000+ users and work comfortably across the stack, primarily in Python and C++.
+      My background combines statistics, MLOps and software engineering with user-centered design and project management,
+      enabling me to build reliable and interpretable AI solutions that create measurable value.
+      I am fluent in Danish and English and communicate confidently across technical and non-technical teams.
+    </p>
+    <!--
+    <p>
+      Jonatan Rasmussen, MSc in Human-Centered Artificial Intelligence (DTU),
+      engineer specialized in applied machine learning and production-oriented AI systems.
+      I have built data-driven tools used by 1000+ users and work comfortably across the stack, primarily in Python and C++.
+      My background combines statistics, MLOps and software engineering with user-centered design and project management,
+      enabling me to build reliable and interpretable data science solutions that create measurable value.
+      I am fluent in Danish and English and communicate confidently across technical and non-technical teams.
+      I am applying to [Company] as I'm looking for a career in [technical field] data science,
+      and due to the values and influence of [Company], it provides me the opportunity to impact the world in a meaningful way.
+    </p>
+    -->
+  </section>
+
+  <section id="skills" class="level2">
+    <br>
+    <h2>Skills</h2>
+    <dl>
+      <dt class="small-heading"><strong><em>Programming</em></strong></dt>
+      <dd>
+        <p>Python (PyTorch, NumPy, pandas, scikit-learn, Flask), C++, C#, .NET, Bash, Git</p>
+      </dd>
+      <dt class="small-heading"><strong><em>AI & MLOps</em></strong></dt>
+      <dd>
+        <p>Recommender systems, NLP (embeddings), LLM integration, Feature engineering, CI/CD</p>
+      </dd>
+      <!--
+      <dt class="small-heading"><strong><em>Software</em></strong></dt>
+      <dd>
+        <p>OOP, Functional, Testing (unit/integration tests), Clean architecture principle (SOLID)</p>
+      </dd>
+      -->
+    </dl>
   </section>
 
   <section id="education" class="level2">
     <br>
     <h2>Education</h2>
     <dl>
-      <!-- <dt><strong>End:</strong> <em>Dec 2025</em><br><strong>Start:</strong> <em>Sep 2023</em></dt> -->
-      <dt><strong></strong><em>2023 - 2025</em></dt>
+      <dt><strong></strong><em>2023 - 2026</em></dt>
       <dd>
-        <p><strong>MSc. Human-Centered AI <em>(currently enrolled)</em></strong> <em>| Technical University of Denmark (DTU)</em></p>
-        <p><em>Grade average: 9.8 - </em>I have chosen the Data Science study plan with Software-focused electives.<strong></strong></p>
+        <p><strong>MSc. Human-Centered Artificial Intelligence <em></em></strong> <em>| Technical University of Denmark (DTU)</em></p>
+        <p><em>Grade average: 9.3 - </em>Focus areas include Data Analysis, MLOps and Software Engineering.<strong></strong></p>
       </dd>
       <dt><strong></strong><em>2020 - 2023</em></dt>
       <dd>
         <p><strong>Bsc. Cyber Technology</strong> <em>| Technical University of Denmark (DTU)</em></p>
         <p><em>Grade average: 7.9 - </em>My curriculum mixed Mathematics, Telecommunication and Computer Science.<strong></strong></p>
       </dd>
+      <!--
       <dt><strong></strong><em>2015 - 2018</em></dt>
       <dd>
         <p><strong>HTX, Mathematics A and Physics A</strong> <em>| Zealand Business College, Slagelse (ZBC)</em></p>
@@ -103,6 +151,7 @@
       <dd>
         <p><strong>Flakkebjerg Efterskole, 10th grade</strong> <em>| Flakkebjerg Efterskole (Boarding School)</em></p>
       </dd>
+      -->
     </dl>
   </section>
 
@@ -110,21 +159,58 @@
     <br>
     <h2>Courses</h2>
     <dl>
-      <dt><strong><em>Mathematics</em></strong></dt>
-      <dd>
-        <p>02105 <em>Algorithms and Data Structures 1</em> | 01017 <em>Discrete Mathematics</em></p>
-        <p>01005 <em>Advanced engineering mathematics 1</em> | 02402 <em>Introduction to Statistics</em></p>
-        <p>02561 <em>Computer Graphics</em> | 02562 <em>Rendering - Introduction</em> | 02502 <em>Image analysis</em></p>
-        <p>02450 <em>Introduction to Machine Learning and Data Mining</em> | 02180 <em>Introduction to Artificial Intelligence</em></p>
-      </dd>
-      <dt><strong><em>Data & Software</em></strong></dt>
-      <dd>
-        <p>02807 <em>Computational tools for data science</em> | 02476 <em>Machine learning operations</em></p>
-        <p>02805 <em>Social graphs and interactions</em> | 02806 <em>Social data analysis and visualization</em></p>
-        <p>34334 <em>Advanced data networks and cyber security</em> | 34331 <em>Digital hardware design for communications</em></p>
-        <p>02161 <em>Software Engineering 1</em> | 02393 <em>Programming in C++</em> | 02809 <em>UX design prototyping</em></p>
-        <p>41010 <em>User oriented design</em> | 41012 <em>Visual communication</em> | 42430 <em>Project Management</em></p>
-      </dd>
+    <dt class="small-heading"><strong><em>AI & Mathematics</em></strong></dt>
+    <dd>
+      <p>
+        <a href="https://kurser.dtu.dk/course/2025-2026/02476" target="_blank" rel="noopener">02476 <em>Machine Learning Operations</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2025-2026/02807" target="_blank" rel="noopener">02807 <em>Computational Tools for Data Science</em></a>
+      </p>
+      <p>
+        <a href="https://kurser.dtu.dk/course/2025-2026/02561" target="_blank" rel="noopener">02561 <em>Computer Graphics</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2025-2026/02452" target="_blank" rel="noopener">02452 <em>Machine Learning</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2025-2026/02502" target="_blank" rel="noopener">02502 <em>Image Analysis</em></a>
+      </p>
+      <!--
+      <p>
+        <a href="https://kurser.dtu.dk/course/2025-2026/01017" target="_blank" rel="noopener">01017 <em>Discrete Mathematics</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2025-2026/02402" target="_blank" rel="noopener">02402 <em>Statistics</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2025-2026/02562" target="_blank" rel="noopener">02562 <em>Rendering Introduction</em></a>
+      </p>
+      -->
+    </dd>
+    <dt class="small-heading"><strong><em>Data & Software</em></strong></dt>
+    <dd>
+      <p>
+        <a href="https://kurser.dtu.dk/course/2025-2026/02805" target="_blank" rel="noopener">02805 <em>Social Graphs and Interactions</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2025-2026/02806" target="_blank" rel="noopener">02806 <em>Social Data Analysis and Visualization</em></a>
+      </p>
+      <p>
+        <a href="https://kurser.dtu.dk/course/2025-2026/02105" target="_blank" rel="noopener">02105 <em>Algorithms and Data Structures</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2025-2026/02161" target="_blank" rel="noopener">02161 <em>Software Engineering 1</em></a>
+      </p>
+      <p>
+        <a href="https://kurser.dtu.dk/course/2025-2026/02393" target="_blank" rel="noopener">02393 <em>Programming in C++</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2021-2022/34334" target="_blank" rel="noopener">34334 <em>Advanced Data Networks and Cyber Security</em></a>
+      </p>
+      <!--
+      <p>
+        <a href="https://kurser.dtu.dk/course/2021-2022/34331" target="_blank" rel="noopener">34331 <em>Digital Hardware Design</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2022-2023/34333" target="_blank" rel="noopener">34333 <em>Technologies for mobile communication and IoT</em></a>
+      </p>
+      -->
+    </dd>
+    <dt class="small-heading"><strong><em>Product & Design</em></strong></dt>
+    <dd>
+      <p>
+        <a href="https://kurser.dtu.dk/course/2025-2026/02809" target="_blank" rel="noopener">02809 <em>UX Design Prototyping</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2018-2019/41011" target="_blank" rel="noopener">41011 <em>Product Usability and Design</em></a>
+      </p>
+      <p>
+        <a href="https://kurser.dtu.dk/course/2018-2019/41010" target="_blank" rel="noopener">41010 <em>User Oriented Design</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2022-2023/42430" target="_blank" rel="noopener">42430 <em>Project Management</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2018-2019/41012" target="_blank" rel="noopener">41012 <em>Visual Communication</em></a>
+      </p>
+    </dd>
     </dl>
   </section>
 
@@ -134,25 +220,31 @@
     <dl>
       <dt><em></em></dt>
       <dd>
-        <p><a href="https://dtucourseanalyzer.pythonanywhere.com/" target="_blank"><strong>DTU Course Analyzer</strong></a> <em>| 100.000 monthly page hits, all-time most upvoted on /r/DTU subreddit</em></p>
-        <p>My popular course analysis website, made for students at DTU. Authored and maintained by me.</p>
+        <p><a href="https://dtucourseanalyzer.pythonanywhere.com/" target="_blank"><strong>DTU Course Analyzer</strong></a> <em>| Used by 1000+ DTU students, all-time most upvoted on /r/DTU subreddit.</em></p>
+        <p>ML-powered course analysis website, made for students at DTU. Authored and maintained by me.</p>
       </dd>
       <dt><em></em></dt>
       <dd>
-        <p><a href="https://wago.io/6CDe7U7t6" target="_blank"><strong>WoW Weakaura: /say Callouts M+</strong></a> <em>| 12.000 views, 1100 downloads and 150 stars</em></p>
+        <p><a href="https://wago.io/6CDe7U7t6" target="_blank"><strong>WoW Weakaura: /say Callouts M+</strong></a> <em>| 24.000 views, 1300 downloads and 200 stars.</em></p>
         <p>My World of Warcraft interface mod (personal project). It alerts players about lethal combat_log_events.</p>
       </dd>
+      <!--
       <dt><em></em></dt>
       <dd>
-        <p><a href="https://www.youtube.com/@JonatanRasmussen" target="_blank"><strong>Jonatan Rasmussen YouTube Channel</strong></a> <em>| 300 subscribers and a four-digit average view count</em></p>
-        <p>Personal videos about DTU and about life.</p>
+        <p><a href="https://wago.io/6CDe7U7t6" target="_blank"><strong>Github Portfolio</strong></a> <em>| 10+ hobby projects, across various languages and domains.</em></p>
+        <p>A diverse collection of small and large projects developed throughout the years.</p>
       </dd>
+      -->
+      <dt><em></em></dt>
+      <dd>
+        <p><a href="https://www.youtube.com/@JonatanRasmussen" target="_blank"><strong>Jonatan Rasmussen YouTube Channel</strong></a> <em>| 350 subscribers, 10 videos and 40.000 total views.</em></p>
+        <p>In my spare time I sometimes make personal videos about DTU and about life.</p>
+      </dd>
+
     </dl>
   </section>
 
-
   <footer>
-  <br>
     <ul>
       <li>
         <a href="https://github.com/JonatanRasmussen" target="_blank" rel="noopener noreferrer">
@@ -170,7 +262,6 @@
         </a>
       </li>
     </ul>
-    <p class="date">Last updated: April 30, 2025</p>
   </footer>
 </body>
 </html>
