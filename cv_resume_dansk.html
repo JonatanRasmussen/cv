@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Jonatan CV dansk</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="cv_resume_files/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    /* Right-aligned contact information */
+    .details {
+      text-align: right;
+    }
+
+    .details li {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-bottom: 5px;
+    }
+
+    .details li i {
+      margin-right: 10px;
+      color: #555;
+      order: -1; /* Ensures icon is before text */
+    }
+
+    .small-heading {
+      font-size: 0.94em;
+    }
+
+    a.no-icon:before {
+      content: none !important;
+      display: none !important;
+    }
+
+    /*
+    section#profile > p {
+      margin-top: 0.8em;
+    }
+    */
+
+  </style>
+</head>
+<body>
+  <header itemscope="" itemtype="http://schema.org/Person" class="with-photo">
+    <div id="title" class="qrcode">
+      <h1 class="fullname">
+        <span itemprop="givenName">Jonatan Jais Kofoed Rasmussen</span>
+        <span itemprop="familyName"></span>
+      </h1>
+      <h2 class="title">MSc, Human-Centered AI (DTU)</h2>
+    </div>
+    <img src="cv_resume_files/picture.png">
+    <ul class="details">
+      <!-- email -->
+      <li>
+        <span>jonatan.j.k.rasmussen@gmail.com</span>
+        <i class="fas fa-envelope"></i>
+      </li>
+      <!-- address -->
+      <li itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+        <span>
+          <span itemprop="addressLocality">2850 Nærum, </span>
+          <span itemprop="addressCountry">Danmark</span>
+        </span>
+        <i class="fas fa-map-marker-alt"></i>
+      </li>
+      <!-- mobile -->
+      <li>
+        <span>(+45) 93 97 25 80</span>
+        <i class="fas fa-mobile-alt"></i>
+      </li>
+      <!-- date of birth / age -->
+      <!---->
+      <li>
+        <span>10/06/1998</span>
+        <i class="fas fa-birthday-cake"></i>
+      </li>
+      <!---->
+    </ul>
+  </header>
+
+  <section id="profile" class="level2" style="margin-top: -2.0em; position: relative; z-index: 10;">
+    <h2>Præsentation</h2>
+    <p>Jonatan Rasmussen, cand.polyt. i Menneskeorienteret Kunstig Intelligens (DTU).</p>
+    <p style="margin-top: 0.8em;">
+      Civilingeniør med speciale i anvendt machine learning og software-orienteret informationsteknologi.
+      <br>
+      Jeg har en hjemmeside med 1000+ månedlige brugere, og jeg har full-stack erfaring i både Python og C#.
+      <br>
+      Min akademiske baggrund omfatter Data Science, MLOps og softwareudvikling, og jeg er ISO-certificeret i projektledelse.
+      <br>
+      Som nyuddannet kan jeg tilbyde jer en ungdommelig entusiasme, nysgerrighed og omstillingsparathed.
+      Jeg vil kunne tilpasse mig jeres arbejdskultur og workflows uden at være farvet af, hvordan andre arbejdspladser har indrettet sig.
+      Desuden står det akademiske pensum skarpt i hukommelsen. Jeg skrev kode som teenager, dvs. mange år før AI-værktøjer blev udbredt, og jeg bruger teknologien varsomt. Jeg har et positivt syn på arbejde, og jeg vægter mine faglige og sociale kompetencer ligeligt.
+    </p>
+  </section>
+
+  <section id="skills" class="level2">
+    <br>
+    <h2>Kompetencer</h2>
+    <dl>
+      <dt class="small-heading"><strong><em>Programming</em></strong></dt>
+      <dd>
+        <p>Python (PyTorch, Pandas, Flask), C#, C++, .NET, JS, Bash, Git, Github. Unit tests og decoupled kode</p>
+      </dd>
+      <dt class="small-heading"><strong><em>AI & MLOps</em></strong></dt>
+      <dd>
+        <p>Anbefalingssystemer, LLM-integration, NLP (embeddings), Feature engineering, CI/CD, scrum (agil)</p>
+      </dd>
+      <!--
+      <dt class="small-heading"><strong><em>Software</em></strong></dt>
+      <dd>
+        <p>OOP, Functional, Testing (unit/integration tests), Clean architecture principle (SOLID)</p>
+      </dd>
+      -->
+    </dl>
+  </section>
+
+  <section id="awards-and-grants" class="level2">
+    <br>
+    <h2>Projekter</h2>
+    <dl>
+      <dt><strong>DTU Courses</strong></dt>
+      <dd>
+        <p><a href="https://dtucourseanalyzer.pythonanywhere.com/" target="_blank"><strong>DTU Course Analyzer</strong></a> <em>| Besøgt af 5000+ DTU-studerende, <a href="https://old.reddit.com/r/DTU/comments/1eb9rgv/im_launching_my_dtu_course_analyzer_website_a/" class="no-icon">all-time top-post på /r/DTU subreddit.</a></em></p>
+        <p>Hjemmeside med DTU kursusstatistik og en Machine Learning-baseret anbefalingsalgoritme. Google Analytics viser 1000+ månedlige danske brugere (ikke bots),
+          og hvis man Googler "DTU courses" ligger hjemmesiden på første side af søgeresultater. Udviklet og vedligeholdt som open-source solo-projekt.</p>
+      </dd>
+      <dt><strong>Warcraft Mod</strong></dt>
+      <dd>
+        <p><a href="https://github.com/JonatanRasmussen/world_of_warcraft_mod_mplus_say_callouts_weakaura" target="_blank"><strong>WoW Weakaura: /say Callouts M+</strong></a> <em>| 24.000 visninger, 1300 downloads og 200 stjerner.</em></p>
+        <p>Min World of Warcraft interface-mod, som kan læse spillets combat-log og afspille advarsler.</p>
+      </dd>
+      <!--
+        <dt><em></em></dt>
+        <dd>
+          <p><a href="https://github.com/JonatanRasmussen/world_of_warcraft_mod_mplus_say_callouts_weakaura" target="_blank"><strong>Github Portfolio</strong></a> <em>| 10+ hobby projects, across various languages and domains.</em></p>
+          <p>A diverse collection of small and large projects developed throughout the years.</p>
+        </dd>
+        -->
+      <!--
+        <dt><em></em></dt>
+        <dd>
+          <p><a href="https://www.youtube.com/@JonatanRasmussen" target="_blank"><strong>Jonatan Rasmussen YouTube Channel</strong></a> <em>| 350 subscribers, 10 videos and 40.000 total views.</em></p>
+          <p>In my spare time I sometimes make personal videos about DTU and about life.</p>
+        </dd>
+        -->
+    </dl>
+  </section>
+
+  <section id="education" class="level2">
+    <br>
+    <h2>Uddannelse</h2>
+    <dl>
+      <dt><strong></strong><em>2024 - 2026</em></dt>
+      <dd>
+        <p><strong>MSc, Menneskeorienteret Kunstig Intelligens</strong> <em>| Danmarks Tekniske Universitet (DTU)</em></p>
+        <p><em>Karaktersnit: 9.3 - </em>Min specialisering var i dataanalyse, MLOps og Software Engineering.<strong></strong></p>
+      </dd>
+      <dt><strong></strong><em>2020 - 2023</em></dt>
+      <dd>
+        <p><strong>BSc, Cyberteknologi</strong> <em>| Danmarks Tekniske Universitet (DTU)</em></p>
+        <p><em>Karaktersnit: 7.9 - </em>Uddannelsen omhandlede telekommunikation, matematik og datalogi.<strong></strong></p>
+      </dd>
+      <dt><strong></strong><em>2015 - 2018</em></dt>
+      <dd>
+        <p><strong>HTX, Mat A og Fysik A</strong> <em>| Zealand Business College, Slagelse (ZBC)</em></p>
+        <p><em>Karaktersnit: 9.9 - </em> Jeg lavede frivilligt mentorarbejde for elever i 9. klasse og fik et certifikat.<strong></strong></p>
+      </dd>
+      <!--
+      <dt><strong></strong><em>2014 - 2015</em></dt>
+      <dd>
+        <p><strong>Flakkebjerg Efterskole, 10th grade</strong> <em>| Flakkebjerg Efterskole (Boarding School)</em></p>
+      </dd>
+      -->
+    </dl>
+  </section>
+
+  <section id="courses" class="level2">
+    <br>
+    <h2>Kurser</h2>
+    <dl>
+    <dt class="small-heading"><strong><em>AI & Matematik</em></strong></dt>
+    <dd>
+      <p>
+        <a href="https://kurser.dtu.dk/course/2025-2026/02476" target="_blank" rel="noopener">02476 <em>Machine Learning Operations</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2025-2026/02807" target="_blank" rel="noopener">02807 <em>Computational Tools for Data Science</em></a>
+      </p>
+      <p>
+        <a href="https://kurser.dtu.dk/course/2025-2026/02502" target="_blank" rel="noopener">02502 <em>Image Analysis</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2025-2026/02452" target="_blank" rel="noopener">02452 <em>Machine Learning</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2025-2026/02561" target="_blank" rel="noopener">02561 <em>Computer Graphics</em></a>
+      </p>
+      <!--
+      <p>
+        <a href="https://kurser.dtu.dk/course/2025-2026/01017" target="_blank" rel="noopener">01017 <em>Discrete Mathematics</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2025-2026/02402" target="_blank" rel="noopener">02402 <em>Statistics</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2025-2026/02562" target="_blank" rel="noopener">02562 <em>Rendering Introduction</em></a>
+      </p>
+      -->
+    </dd>
+    <dt class="small-heading"><strong><em>Data & Software</em></strong></dt>
+    <dd>
+      <p>
+        <a href="https://kurser.dtu.dk/course/2025-2026/02105" target="_blank" rel="noopener">02105 <em>Algorithms and Data Structures</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2025-2026/02806" target="_blank" rel="noopener">02806 <em>Social Data Analysis and Visualization</em></a>
+      </p>
+      <!--
+      <p>
+        <a href="https://kurser.dtu.dk/course/2025-2026/02805" target="_blank" rel="noopener">02805 <em>Social Graphs and Interactions</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2025-2026/02161" target="_blank" rel="noopener">02161 <em>Software Engineering 1</em></a>
+      </p>
+      -->
+      <p>
+        <a href="https://kurser.dtu.dk/course/2025-2026/02393" target="_blank" rel="noopener">02393 <em>Programming in C++</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2021-2022/34334" target="_blank" rel="noopener">34334 <em>Advanced Data Networks and Cyber Security</em></a>
+      </p>
+      <!--
+      <p>
+        <a href="https://kurser.dtu.dk/course/2021-2022/34331" target="_blank" rel="noopener">34331 <em>Digital Hardware Design</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2022-2023/34333" target="_blank" rel="noopener">34333 <em>Technologies for mobile communication and IoT</em></a>
+      </p>
+      -->
+    </dd>
+    <dt class="small-heading"><strong><em>Produkt & Design</em></strong></dt>
+    <dd>
+      <p>
+        <a href="https://app.diplomasafe.com/en-US/certificates/d4ed6104c209d39f37aadb75fbecaf5282734406b" target="_blank" rel="noopener">ISO 21500 & ISO 21502 <em>Guidance on Project Management</em></a>   |  
+        <a href="https://kurser.dtu.dk/course/2022-2023/42430" target="_blank" rel="noopener">42430 <em>Project Management</em></a>
+      </p>
+      <p>
+        <a href="https://kurser.dtu.dk/course/2025-2026/02809" target="_blank" rel="noopener">02809 <em>UX Design Prototyping</em></a>  | 
+        <a href="https://kurser.dtu.dk/course/2018-2019/41010" target="_blank" rel="noopener">41010 <em>User Oriented Design</em></a>  | 
+        <a href="https://kurser.dtu.dk/course/2018-2019/41012" target="_blank" rel="noopener">41012 <em>Visual Communication</em></a>
+      </p>
+    </dd>
+    </dl>
+  </section>
+
+  <footer>
+    <ul>
+      <li>
+        <a href="https://github.com/JonatanRasmussen" target="_blank" rel="noopener noreferrer">
+          GitHub-profil
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/jonatan-j-k-r/" target="_blank" rel="noopener noreferrer">
+          LinkedIn-side
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/@jonatanrasmussen" target="_blank" rel="noopener noreferrer">
+          YouTube-kanal
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+</html>

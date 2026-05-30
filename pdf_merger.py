@@ -1,13 +1,10 @@
-from typing import LiteralString
-
-
 from pypdf import PdfReader, PdfWriter
 import os
 
 base_path = r"C:\Users\BudoB\OneDrive\Dokumenter Tekst\Personlig\Joblog"
-pdf_1_path: LiteralString = os.path.join(base_path, "jonatan_cv.pdf")
-pdf_2_path: LiteralString = os.path.join(base_path, "jonatan_ansoegning.pdf")
-output_path: LiteralString = os.path.join(base_path, "jonatan_cv_and_ansoegning.pdf")
+pdf_1_path = os.path.join(base_path, "jonatan_cv.pdf")
+pdf_2_path = os.path.join(base_path, "jonatan_ansoegning.pdf")
+output_path = os.path.join(base_path, "jonatan_cv_and_ansoegning.pdf")
 
 writer: PdfWriter = PdfWriter()
 pdf_1_reader: PdfReader = PdfReader(stream=pdf_1_path)
