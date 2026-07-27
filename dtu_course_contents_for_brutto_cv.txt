@@ -1,0 +1,225 @@
+MATEMATIKKURSER:
+
+
+01005 Advanced engineering mathematics 1
+Objectives: 	A student who has met the objectives of the course will be able to:
+- use truth tables to investigate statements from propositional logic
+- use the algebraic and the geometric representation of complex numbers including the complex exponential function
+- perform computations with polynomials over the complex numbers
+- apply inductive thinking in mathematical statements
+- compute/execute a function/algorithm defined in a recursive way
+- use matrix algebra and Gaussian elimination for solving systems of linear equations and describe their solution sets
+- analyze linear maps between vector spaces
+- analyze the eigenvalue problem in particular for square matrices
+- solve systems of first order linear differential equations with constant coefficients
+- describe the structure of solutions to a second order linear differential equation with constant coefficients
+- use mathematical terminology and logical reasoning in written presentations
+- use a computer to execute various algorithms
+- Perform calculations with vector functions of several variables
+- Apply the chain rule to functions of several variables
+- Calculate and use Taylor approximations for functions of several variables
+- Use and explain algorithms for solving mathematical problems
+- Calculate local/global extrema for functions of several variables with boundary conditions
+- Parameterize curves, surfaces and volumes
+- Explain the Riemann integral and calculate integrals, e.g. curve, surface and space integrals
+- Use the spectral theorem for symmetric and Hermitian matrices
+- Use mathematical terminology and reasoning in connection with oral and written presentation
+- Organize the collaboration in a project group around mathematical models, concepts and methods in a larger application context
+- Use computer software to represent and solve mathematical problems
+Content: 	Propositional logic. Complex numbers. Polynomials. Recursion and induction. Systems of linear equations. Matrix algebra. Vector spaces. Linear maps. Eigenvalue problems. Systems of first order linear differential equations with constant coefficients. Use of computer to exemplify the topics of the course. 
+Functions from several variables into several variables, differentiability, gradient vector, the chain rule, the Jacobian, the Hesse matrix, Taylor approximations for functions of several variables, extremum investigation and optimization problems for functions of several variables, the Riemann integral, curve integrals, surface integrals, antiderivatives, vector fields, the spectral theorem for Hermitian matrices, inner product and orthonormal bases for vector spaces. 
+
+
+02402 Introduction to Statistics
+ 	A student who has met the objectives of the course will be able to:
+- Estimate and interpret simple summary statistics, such as mean, standard deviation, variance, median and quartiles as well as correlation
+- Apply simple graphical techniques, including histograms, qq-normal plots, and box plots
+- Identify and describe probability distributions, including Poisson, binomial, exponential and the normal distribution using Python
+- Compare different statistical methods
+- Apply and interpret important statistical concepts, such as the formulation of models, parameter estimation, construction of confidence intervals and hypothesis testing
+- Apply and interpret simple statistical methods within one- and two sample situations and for count data
+- Apply and interpret simple statistical methods within simple and multiple linear regression and one- and two-way analysis of variance
+- Estimate parameters in the general linear model using matrix algebra
+- Use Python and interpret its output
+- Interpret power considerations and perform sample size calculations in different settings using Python
+- Debate and criticize empirical based information
+- Recognize core statistical terms
+Content: 	Simple methods for graphical and tabular assessments of collected or measured data: empirical distributions, histogram, normal probability plot, box plot. Model formulation. Model control: control of distribution function. Application of especially Poisson-, binomial-, exponential- and normal distribution. Estimation and test of parameters and construction of confidence intervals in frequently occuring situations (e.g. means, variances, proportions). Regression analysis with one independent variable and introduction to the analysis of variance and to the analysis of contingency tables, estimation theory and simulation based methods.
+
+
+
+02502 Image Analysis
+
+Objectives: 	A student who has met the objectives of the course will be able to:
+- Explain the fundamental properties of digital images including medical images .
+- Describe principles for image acquisition including the pin hole camera and medical modalities like x-ray, computed tomography and magnetic resonance imaging.
+- Implement and use basic image coding for storing images.
+- Implement and apply image analysis algorithms, including point processing, filtering, morphology, BLOB analysis, pixel classification, geometrical transforms, registration, classification, boundary tracing, line detection and segmentation.
+- Implement and use statistical methods like principal component analysis for processing images and extraction of significant information from images. Implement and test generative image models based on principal component analysis. Describe and use shape and appearance models based on principal component analysis.
+- Implement and apply change detection algorithms for video processing..
+- Apply and evaluate feature-based classification using linear discriminant analysis.
+- Use and evaluate state-of-the-art methods for 3D medical image registration.
+- Design an appropriate image analysis algorithm based on a set of example images and a given objective.
+- Compute the performance of a given image analysis algorithm given a ground-truth data set.
+- Improve and optimize image algorithms based on ground truth data or clinical end-points.
+- Select appropriate training data and do feature selection for image based and pixelwise classification algorithms.
+Content: 	Digital image and data structures, the pin hole camera, medical modalities, image file formats, point processing, filtering, morphology, BLOB analysis, classification, labelling and object analysis, pixel classification, segmentation, geometrical transforms, registration, boundary tracing, line detection, principal component analysis, linear discriminant analysis, video change detection, shape analysis, confusion matrices, and performance metrics. 
+
+
+
+01017 Discrete Mathematics
+
+ 	A student who has met the objectives of the course will be able to:
+- Use general mathematical language, terms and notation.
+- Decide correctness (or incorrectness) of simple mathematical statements.
+- Identify logical structure of simple mathematical proofs.
+- Apply basic concepts in elementary mathematical logic.
+- Apply basic counting techniques.
+- Apply binomial coefficients and identities.
+- Apply basic concepts in graph theory.
+- Argue for choice of method in problem solving.
+Content: 	Introductory discrete mathematics such as logic, sets, functions, relations, induction and recursion, modulo arithmetic, counting, binomial coefficients and identities, inclusion-exclusion, finite and infinite graphs. 
+
+
+
+02105 Algorithms and Data Structures 1
+
+Objectives: 	A student who has met the objectives of the course will be able to:
+- Apply asymptotic analysis and notation.
+- Apply and analyze basic algorithms, such as sorting and searching.
+- Apply and analyze basic graph algorithms, such as DFS, BFS, and Dijkstra's algorithms.
+- Apply and analyze basic data structures such as stacks, queues, heap, and binary search trees.
+- Identify the underlying algorithmic concept in a given problem.
+- Use graphs to model a given problem.
+- Modify known algorithms and data structures to efficiently solve a given problem.
+- Compare algorithms and data structures and use this to select an appropriate, efficient solution to a given problem.
+Content: 	Introduction to algorithms, data structures, asymptotic analysis and notation, graphs and other combinatorial structures, and modelling. 
+
+
+02450 Machine Learning and Data Mining
+Objectives: 	A student who has met the objectives of the course will be able to:
+- Explain the major steps involved in data modeling from preparing the data, modeling the data to evaluating and disseminating the results.
+- Discuss key machine learning concepts such as feature extraction, cross-validation, generalization and over-fitting, prediction, curse of dimensionality, and the bias-variance trade-off.
+- Match practical problems to standard data modeling problems such as dimensionality reduction, regression, classification, density estimation and clustering.
+- Sketch how a relevant set of machine learning methods work and describe their assumptions, strengths, and limitations.
+- Apply and modify machine learning algorithms in Python.
+- Apply visualization techniques and statistics to evaluate model performance, identify patterns and data issues.
+- Select, combine and modify data modeling tools in order to analyze data and disseminate the results of the analysis.
+- Apply the data modeling framework to a broad range of application domains in medical engineering, bio-informatics, chemistry, electrical engineering and computer science.
+Content: 	Structured data modelling.
+Data preprocessing and feature extraction.
+Summary statistics.
+Similarity measures.
+Cost functions including maximum likelihood.
+Optimization methods for machine learning.
+Overfitting, generalization, regularization, and bias-variance tradeoffs.
+Cross-validation.
+Statistical evaluation and comparison of machine learning methods
+Visualization and interpretation of models.
+Dimensionality reduction (including principal component analysis).
+Classification methods (decision trees, logistic and multinomial regression, nearest neighbor, naïve Bayes classifier, feed forward neural networks, and ensemble methods)
+Regression methods (regression trees, linear regression, nearest neighbor, feed forward neural networks, and ensemble methods)
+Clustering (k-means, hierarchical clustering, and mixture models)
+Density estimation (kernel density estimation, Gaussian mixture models, and the EM algorithm)
+Anomaly/outlier detection including density-based methods. 
+
+
+
+CYBERTEKNOLOGI / NÆTVÆRKSKURSER:
+
+34334 Advanced data networks and cyber security
+Objectives: 	A student who has met the objectives of the course will be able to:
+- Describe how information can be represented and processed in data networks
+- Apply and analyse general principles for transmission of information
+- Calculate significance of relevant protocols and their impact on network efficiency
+- Describe structure and architectures of routers
+- Explain central routing protocols in the Internet including elaboration of differences between Interior and Exterior Gateway Protocols
+- Configure routers and implement routing protocols
+- Analyze security aspects of cyber communication
+- Apply intrusion detection and prevention systems
+- Explain segmentation and participation of network as well as Quality of Service
+Content: 	Principles and efficiency of L2 and L3 data networks, routing principles and protocols, Quality of service and advanced concepts like MPLS, GMPLS, VLAN, SDN etc. Protocols for security and encryption from classic encryption architectures to modern public key systems. Security threaths and counter measures. 
+
+
+
+34346 Networking technologies and application development for Internet of Things (IoT)
+    Objectives: 	A student who has met the objectives of the course will be able to:
+    - Describe the essence and challenges of Internet of Things.
+    - Evaluate networking protocols for different IoT applications.
+    - Implement device-device communication.
+    - Analyse and plan for implementation of optimal networking technology.
+    - Develop hardware prototype.
+    - Develop embedded programs to transmit/receive data to/from the IoT device.
+    - Implement state-of-the-art cloud services in own project.
+    - Use cloud services to process, analyze and store IoT data.
+    - Deploy and showcase the developed IoT system and application.
+    - Document project work in scientific paper format.
+    Content: 	Introduction to architectures, protocol principles, and challenges of IoT. Low Power Wire Area Network (LPWAN) networking technologies such as LoRa, LoRaWAN, NBIoT, LTE-M, SigFox, and simple device-device RF connections. Circuit board prototyping using Arduino with sensor devices, including temperature sensor, light sensor, vibration sensor, forcing sensor, geolocation etc. The students will be planning and developing their own projects in groups and evaluated from a report documenting. Example topics: Geolocation, EHealth, Medical parameter monitoring and automation. C programming on Arduino IDE to implement simple data collection, loop control, and data communication with MQTT, Bluetooth Low Energy, Smart, etc. Device authorization and network security. IoT cloud services such as Amazon AWS or Microsoft Azure to process, analyze and store the data from the IoT device, with network security. Evaluation is done as an overall evaluation based on report, exercises, and presentation of prototype.
+
+
+34210 Introduction to digital communication
+Objectives: 	A student who has met the objectives of the course will be able to:
+- Describe signals in general in relation to communication systems
+- Explain the difference between analog signals and digital signals, and between periodic and non-periodic signals
+- Describe sampling and reconstruction of signals and explain the sampling theorem for deterministic signals
+- Explain quantization, including the difference between linear and non-linear quantization
+- Describe how signals can be represented in both time-domain and frequency domain, and the purpose of Fourier transform in relation to these different domains
+- Describe what characterizes a linear system and the relation between a linear system’s impulse response and transfer function
+- Explain how information can be transferred with pulses and how pulses are detected in the presence of noise
+- Describe amplitude modulation and phase modulation in both time domain and frequency domain
+- Use MATLAB for calculations on simple communication systems
+Content: 	Introduction to analysis and processing of deterministic signals. Sampling and quantization. The sampling theorem. Introduction to linear systems and electric circuits. Transmission with pulses. Optimal detection of pulses. Intersymbol interference. Nyquist’s theorem. Orthogonal signals. Modulation. Channel models for metallic and optical transmission lines and radio channels 
+
+
+
+34332 Digital hardwaredesign for communications
+Objectives: 	A student who has met the objectives of the course will be able to:
+- Understand fundamental problems related to the development of communica-tion electronics.
+- Synthesize features like hashes, CRC, memory management, frame man-agement, etc.
+- Using modern digital hardware design tools.
+- Write effective VHDL code for use in communication systems.
+- Perform simulation of the developed design.
+- Perform synthesis and verification using test benchmark.
+- Apply optimization strategies in order to achieve design requirements.
+- Write a technical report documenting the work.
+Content: 	Project tasks with design of Circuits for communication systems, such as package parsing, Bug detection, Hash features, cryptographic blocks for coding, High speed Serial links, package processing and memory management, scrambling and frame management. Coding preferably in VHDL for synthesis in the FPGA. Optimization of code (timing, area) in order to meet defined design criteria. 
+
+
+34313 Introduction to Data Communication Networks
+Objectives: 	A student who has met the objectives of the course will be able to:
+- Explain the fundamental principles for the exchange of information in data communication networks.
+- Describe protocols in modern data communication networks.
+- Describe and compare network architectures for data communication.
+- Discuss advantages and disadvantages of different network technologies and protocols.
+- Describe security aspects of data communication.
+- Explain the fundamental principles for encryption of information.
+- Present experimental results from exercises in a written report.
+- Discuss experimental results and compare these with relevant theory.
+Content: 	Packet-switched and circuit-switched transfer of information. Protocols in data communication networks. Ethernet and WiFi local area networks. The Internet: Fundamental principles and important protocols (IP, TCP, UDP, DNS, HTTP, etc.). Data communication in mobile communication networks: Network architectures, principles of capacity sharing, coverage, procedures (attachment, pageing, handover). Fundamental concepts of network security: Encryption, authentication, certificates and cryptographic hash functions. Simulation of data communication networks and protocols. 
+
+
+34333 Technologies for Mobile communication and cellular IoT:
+Objectives: 	A student who has met the objectives of the course will be able to:
+- Explain the general principles in cellular networks for mobile communication.
+- Explain the general principles in IoT communication and be able to select the most suitable network technology for a given application.
+- Compare and assess technologies operating in licensed and unlicensed spectrum, respectively.
+- Compare architectures of and technologies for mobile communication and IoT
+- Explain how signaling in mobile communication networks is used during fundamental procedures such as registering, call setup and handover.
+- Explain the modulation principles used in mobile communication and other wireless networks and apply this to how speech and data are transmitted through communication networks.
+- Explain the central mechanisms and parameters that influence the capacity, coverage and services of networks for mobile communication and IoT and apply that to network dimensioning.
+- Compare technologies for mobile communication and Iot with relation to coverage and capacity
+Content: 	Networks for mobile communication: LTE and 5G. Data communication in mobile networks (GPRS, EDGE and LTE). Technologies for IoT. Architectures of networks for mobile communication and IoT. Protocols. Procedures: Authentication, Registration, Call set-up, Mobility management, etc. Modulation and wireless communication. Coverage and capacity. Services and service architectures in mobile communication networks. Planning and dimensioning of networks for mobile communication and IoT. 
+
+
+34120 Electromagnetism for communication
+Objectives: 	A student who has met the objectives of the course will be able to:
+- Describe electromagnetic fields with the use of vector analysis
+- Apply Maxwell’s equation on simple problems in relation to electromagnetism
+- Explain the propagation of electromagnetic waves in free space, simple materials and structures as for example dielectric waveguides
+- Explain Huygens principle and apply this to simple examples of diffraction
+- Explain application and working principle of examples of optical sensor systems, specifically: “Light Detection and Ranging,” and the “Fabry-Perot interferometer”
+- Explain basic principles used to characterize antennas and apply gained knowledge within antennas in the context of communication
+- Explain the propagation of radio waves
+- Explain basic theory for electromagnetic fields when applied in different examples including motors, sensors and communication
+- Describe and communicate the basic theory of electromagnetic fields
+Content: 	Electromagnetic waves (Maxwell equations), light, optical sensors, antennas and radio waves.
