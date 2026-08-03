@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Jonatan CV dansk</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="cv_resume_files/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    /* Right-aligned contact information */
+    .details {
+      text-align: right;
+    }
+
+    .details li {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-bottom: 5px;
+    }
+
+    .details li i {
+      margin-right: 10px;
+      color: #555;
+      order: -1; /* Ensures icon is before text */
+    }
+
+    .small-heading {
+      font-size: 0.94em;
+    }
+
+    a.no-icon:before {
+      content: none !important;
+      display: none !important;
+    }
+
+    @media print {
+      /* Kill trailing space that spills onto page 2, avoiding a 2nd empty pdf-page when page 1 just barely fits */
+      body {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
+
+      /* Remove any stray bottom margin on the last section */
+      #interests {
+        margin-bottom: 0 !important;
+      }
+    }
+
+    /*
+    section#profile > p {
+      margin-top: 0.8em;
+    }
+    */
+
+    /* Compact skills section */
+    #skills > dl > dt,
+    #skills > dl > dd {
+      margin-top: 0.5em !important;
+    }
+
+    #skills > dl > dt:first-of-type,
+    #skills > dl > dd:first-of-type {
+      margin-top: 1.0em !important;
+    }
+
+    #skills dd p {
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 1.5;
+    }
+
+    #interests > dl > dt:first-of-type,
+    #interests > dl > dd:first-of-type {
+      margin-top: 1.0em !important;
+    }
+
+  </style>
+</head>
+<body>
+  <header itemscope="" itemtype="http://schema.org/Person" class="with-photo">
+    <div id="title" class="qrcode">
+      <h1 class="fullname">
+        <span itemprop="givenName">Jonatan Jais Kofoed Rasmussen</span>
+        <span itemprop="familyName"></span>
+      </h1>
+      <h2 class="title">MSc, Human-Centered AI (DTU)</h2>
+    </div>
+    <img src="cv_resume_files/picture.png">
+    <ul class="details">
+      <!-- email -->
+      <li>
+        <span>jonatan.j.k.rasmussen@gmail.com</span>
+        <i class="fas fa-envelope"></i>
+      </li>
+      <!-- address -->
+      <li itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+        <span>
+          <span itemprop="addressLocality">4200 Slagelse, </span>
+          <span itemprop="addressCountry">Danmark</span>
+        </span>
+        <i class="fas fa-map-marker-alt"></i>
+      </li>
+      <!-- mobile -->
+      <li>
+        <span>(+45) 93 97 25 80</span>
+        <i class="fas fa-mobile-alt"></i>
+      </li>
+      <!-- date of birth / age -->
+      <!---->
+      <li>
+        <span>10/06/1998</span>
+        <i class="fas fa-birthday-cake"></i>
+      </li>
+      <!---->
+    </ul>
+  </header>
+
+  <section id="profile" class="level2" style="margin-top: -2.0em; position: relative; z-index: 10;">
+    <h2>Præsentation</h2>
+    <p>Jonatan Rasmussen, Civilingeniør fra DTU med speciale i anvendt machine learning.</p>
+    <p style="margin-top: 0.8em;">
+      Fuld titel: <strong>cand.polyt.</strong> i Menneskeorienteret Kunstig Intelligens fra <strong>Danmarks Tekniske Universitet (DTU)</strong>.
+    </p>
+    <p style="margin-top: 0.8em;">
+      Jeg elsker computere og jeg har programmeret siden mine teenage-år, for det føles fedt at bygge ting som folk gider at bruge!
+      Min open-source kursushjemmeside har 1000+ månedlige brugere og min World of Warcraft mod har 15.000 downloads.
+      Arbejde er en social disciplin, og det er vigtigt for mig at alle har det godt. Jeg værdsætter initiativ, åbenhed og færdiggørelse.
+    </p>
+  </section>
+
+  <section id="awards-and-grants" class="level2">
+    <br>
+    <h2>Erfaring</h2>
+    <dl>
+      <dt><strong>Joberfaring</strong></dt>
+      <dd>
+        <p>Jeg er nyuddannet! Det gør mig <strong>nysgerrig</strong>, <strong>hårdtarbejdende</strong> og <strong>samarbejdsvillig</strong>.
+          Jeg kan tilpasse mig jeres arbejdskultur og workflows uden at være farvet af, hvordan andre arbejdspladser indretter sig.
+          Nye værktøjer kan jeg hurtigt lære, og jeg har et positivt syn på arbejde. Desuden står det akademiske pensum skarpt i hukommelsen.
+          Jeg glæder mig til at blive en del af et professionelt team og få ansvar!</p>
+        <p></p>
+      </dd>
+      <dt><strong>Open-source</strong></dt>
+      <dd>
+        <p><a href="https://dtucourseanalyzer.pythonanywhere.com/" target="_blank"><strong>DTU Course Analyzer</strong></a> <em>| Google Analytics viser 1000+ månedlige brugere (fra danske IP-adresser)</em></p>
+        <p>Besøgt af 5000+ DTU-studerende og hvis man Googler "DTU courses" ligger hjemmesiden på første side af søgeresultater.
+          Også <a href="https://old.reddit.com/r/DTU/comments/1eb9rgv/im_launching_my_dtu_course_analyzer_website_a/" class="no-icon">all-time top-post på /r/DTU subreddit</a>. Udviklet og vedligeholdt af mig alene.
+          Hjemmesiden viser DTU kursusstatistik og har en machine learning-baseret anbefalingsalgoritme.</p>
+      </dd>
+      <dt><strong>Spil-modding</strong></dt>
+      <dd>
+        <p><a href="https://github.com/JonatanRasmussen/world_of_warcraft_mod_mplus_say_callouts_weakaura" target="_blank"><strong>World of Warcraft mod</strong></a> <em>| Interface-udvidelse med ~15.000 downloads via WeakAura-frameworket.</em></p>
+        <p>Modden læser spillets combat-log og laver chatadvarsler. Udviklet og vedligeholdt af mig fra 2023-2025.</p>
+      </dd>
+      <dt><strong>Certificering</strong></dt>
+      <dd>
+        <p><a href="https://app.diplomasafe.com/en-US/certificates/d4ed6104c209d39f37aadb75fbecaf5282734406b" target="_blank" rel="noopener"> <strong>ISO 21500</strong> & <strong>ISO 21502</strong></a> <em>Guidance on Project Management</em> | Jeg er ISO-certificeret i projektledelse.</p>
+      </dd>
+    </dl>
+  </section>
+
+  <section id="education" class="level2">
+    <br>
+    <h2>Uddannelse</h2>
+    <dl>
+      <dt><strong></strong><em>2024 - 2026</em></dt>
+      <dd>
+        <p><strong>MSc, Menneskeorienteret Kunstig Intelligens</strong> <em>| Danmarks Tekniske Universitet (DTU)</em></p>
+        <p>Machine learning, data pipelines, MLOps, AI-systemer, UX-design, model evaluering- og deployment.</p>
+      </dd>
+      <dt><strong></strong><em>2020 - 2023</em></dt>
+      <dd>
+        <p><strong>BSc, Cyberteknologi</strong> <em>| Danmarks Tekniske Universitet (DTU)</em></p>
+        <p>Datanetværk, internet-arkitektur, cybersikkerhed, protokoller, IoT, softwareudvikling og systemdesign.<strong></strong></p>
+      </dd>
+      <dt><strong></strong><em>2015 - 2018</em></dt>
+      <dd>
+        <p><strong>HTX, Matematik A og Fysik A</strong> <em>| Zealand Business College, Slagelse (ZBC)</em></p>
+        <p>Teknisk gymnasiel uddannelse. Jeg lavede frivilligt mentorarbejde for 9. klasseselever og fik et certifikat.<strong></strong></p>
+      </dd>
+    </dl>
+  </section>
+
+  <section id="skills" class="level2">
+    <br>
+    <h2>Kompetencer</h2>
+    <dl>
+      <dt class="small-heading"><strong><em>Programming</em></strong></dt>
+      <dd>
+        <p>Python, C#, C++, Bash, Github, API'er, SQL, .NET, AI-agenter (Claude). Unit tests, CI/CD, scrum (agil).</p>
+      </dd>
+      <dt class="small-heading"><strong><em>AI & MLOps</em></strong></dt>
+      <dd>
+        <p>Modelrouting, LLM-integration, RAG, vektorsøgning, NLP-embedding, anbefaling, dokumentbehandling.</p>
+      </dd>
+      <dt class="small-heading"><strong><em>Matematik</em></strong></dt>
+      <dd>
+        <p>Lineær algebra, diff.ligninger, multivar.calculus, regression, datastrukturer, grafteori, diskret matematik.</p>
+      </dd>
+      <dt class="small-heading"><strong><em>Netværk</em></strong></dt>
+      <dd>
+        <p>Routing, netværkssikkerhed, kryptering, TCP/IP, IoT, 5G/LTE, SDN, VHDL, signalprocessering, MatLab.</p>
+      </dd>
+    </dl>
+  </section>
+
+  <section id="interests" class="level2">
+    <br>
+    <h2>Interesser</h2>
+    <dl>
+      <dt class="small-heading"><em>Snak med mig om:</em></dt>
+      <dd>
+        <p>Kode, AI, Cykling, Brætspil, Spildesign, Iværtsætteri, Marketing, Devin Nash, Undertale og Outer Wilds.</p>
+      </dd>
+    </dl>
+  </section>
+
+  <footer>
+    <ul>
+      <li>
+        <a href="https://github.com/JonatanRasmussen" target="_blank" rel="noopener noreferrer">
+          GitHub.com/JonatanRasmussen
+        </a>
+      </li>
+      <li>
+        <a href="mailto:jonatan.j.k.rasmussen@gmail.com">
+          jonatan.j.k.rasmussen@gmail.com
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/jonatan-j-k-r/" target="_blank" rel="noopener noreferrer">
+          LinkedIn.com/in/jonatan-j-k-r/
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+</html>
