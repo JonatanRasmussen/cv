@@ -1,0 +1,63 @@
+/* Right-aligned contact information */
+.details {
+    text-align: right;
+}
+
+.details li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+
+.details li i {
+    margin-right: 10px;
+    color: #555;
+    order: -1;
+    /* Ensures icon is before text */
+}
+
+.small-heading {
+    font-size: 0.94em;
+}
+
+a.no-icon:before {
+    content: none !important;
+    display: none !important;
+}
+
+@media print {
+
+    /* Kill trailing space that spills onto page 2, avoiding a 2nd empty pdf-page when page 1 just barely fits */
+    body {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    /* Remove any stray bottom margin on the last section */
+    #interests {
+        margin-bottom: 0 !important;
+    }
+}
+
+/*
+section#profile > p {
+    margin-top: 0.8em;
+}
+*/
+
+/* Compact skills section */
+#skills>dl>dt,
+#skills>dl>dd {
+    margin-top: 0.5em !important;
+}
+
+#skills>dl>dt:first-of-type,
+#skills>dl>dd:first-of-type {
+    margin-top: 1.0em !important;
+}
+
+#interests>dl>dt:first-of-type,
+#interests>dl>dd:first-of-type {
+    margin-top: 1.0em !important;
+}

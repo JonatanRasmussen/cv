@@ -1,0 +1,174 @@
+/*
+    LOKAL CSS KUN TIL ANSØGNINGEN
+*/
+
+/* Undgå dobbelt-ikon for LinkedIn og GitHub */
+a.no-icon:before {
+    content: none !important;
+    display: none !important;
+}
+
+/* Fjerner padding fra CV-stylesheetet, så vi ikke laver blanke sider ved print */
+body {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* Container til 2-kolonne layoutet */
+.cover-letter-container {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    min-height: 396mm;
+    /* Tvunget A4-højde for at skubbe billedet i bund */
+    padding-top: 1em;
+    box-sizing: border-box;
+}
+
+/* --- VENSTRE KOLONNE --- */
+.left-column {
+    flex: 0 0 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+    position: relative;
+}
+
+.left-column h1 {
+    font-size: 2em;
+    line-height: 1.1em;
+    margin-bottom: 0.2em;
+}
+
+.left-column h1 span[itemprop="givenName"] {
+    color: black;
+}
+
+.left-column h1 span[itemprop="familyName"] {
+    color: black;
+    text-transform: uppercase;
+}
+
+.left-column h2.title {
+    font-style: italic;
+    color: #595959;
+    font-size: 1.2em;
+}
+
+.left-column .contact-info {
+    margin-top: 4em;
+    margin-bottom: auto;
+}
+
+.left-column ul.details {
+    text-align: left;
+    padding: 0;
+    list-style: none;
+}
+
+.left-column ul.details li {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 0.8em;
+    font-size: 0.95em;
+}
+
+.left-column ul.details li i {
+    margin-right: 12px;
+    color: #555;
+    order: -1;
+    width: 15px;
+    text-align: center;
+}
+
+.left-column .profile-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.profile-photo {
+    position: relative;
+    /* required to enable z-index stacking */
+    width: calc(100% + 3.0em);
+    /* compensate so the image scales up to fill the bleed */
+}
+
+/* --- HØJRE KOLONNE --- */
+.right-column {
+    flex: 1;
+    border-left: 0.42593em solid #bfbfbf;
+    padding-left: 3em;
+    display: flex;
+    flex-direction: column;
+
+    /* SKRIFTTYPE FOR ANSØGNINGEN SÆTTES HER */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.05em;
+}
+
+.right-column p {
+    line-height: 1.6;
+}
+
+.right-column .date {
+    text-align: right;
+    margin-top: 0;
+    color: #595959;
+    font-style: italic;
+}
+
+.right-column h2.letter-header {
+    margin-top: 4.0em;
+    margin-bottom: 0.3em;
+    font-size: 1.8em;
+    color: #000;
+}
+
+.right-column h2.letter-subject {
+    margin-bottom: 0.5em;
+    font-size: 1.15em;
+    color: #000;
+}
+
+.right-column section {
+    float: none;
+    width: 100%;
+    margin: 0;
+    margin-top: 1.5em;
+}
+
+.right-column section>h2 {
+    float: none;
+    margin: 0;
+    margin-bottom: 0.8em;
+    font-size: 1.45em;
+    color: black;
+}
+
+.right-column section>h2:before {
+    content: "";
+    display: inline-block;
+    width: 6%;
+    height: 0.35em;
+    background-color: #bfbfbf;
+    margin-right: 3%;
+    margin-bottom: 0.15em;
+}
+
+.right-column section>p {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0.8em;
+    text-align: justify;
+}
+
+/* Gælder afslutningen / "Med venlig hilsen" */
+.right-column>p {
+    margin-top: 1.27778em;
+    text-align: justify;
+}

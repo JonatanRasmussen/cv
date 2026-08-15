@@ -1,0 +1,18 @@
+- Den positive feedback på mine egne projekter har fået mig til at indse, hvor vigtige det er for min motivation, at rigtige mennesker får glæde af det, jeg bygger. 
+- Efter at vedligeholde min egen kode gennem årene har jeg virkelig fået respekt for god kode, som er dejlig at arbejde med, og det er vigtigt for mig, at mine kollegaer ser tingene på samme måde.
+- Min erfaring med egne projekter har lært mig, at jeg gerne vil skrive robust kode, der holder i mange år (ikke det der "Move fast and break things" start-up mindset).  
+- Jeg har fået feedback fra tusindvis af brugere på mine hobbyprojekter, og foruden at være en stor motivationsfaktor, så har det gjort mig enormt glad for brugerdreven udvikling.
+- Med både min hjemmeside og spil-mods er jeg vandt til community management, dvs. at lade  feature-requests og bug-reports være grundlaget for de ting, jeg arbejder på – og jeg er virkelig blevet glad for denne måde at arbejde på.
+- Mine erfaringer med egne projekter har gjort mig glad for løbende at udrulle nye features, så brugere kan validere de ting, man bygger, for det føles belønnende og betryggende.
+- Jeg er blevet glad for færdiggøre features og hurtigt kunne give dem til brugeren, frem for at bruger måneder på at arbejde mod én stor udgivelse.
+- Brugeren er den vigtigste del af det, jeg laver. Under hele uddannelsen (og også i mine fritidsprojekter) har jeg opsøgt kurser og arbejde, der har brugeren i fokus. Jeg finder det kun fedt at bygge noget, hvis jeg mærker, at et menneske får glæde af det.
+
+- På studiet lærte jeg langt mere i gruppearbejdet, når jeg sad sammen med de dygtigste i klassen. Det håber jeg at genskabe i mit professionelle liv, og eftersom I på [medie] nævner [indsæt], så søger jeg netop jeres team.
+
+- Jeg søger en stabil hverdag med en behagelig kodebase, og når I nævner [process], så tænker jeg, at I har nogle gode workflows. Det betyder meget for mig.
+- Jeg søger jobbet, fordi jeres produkt er den type værktøj, jeg selv ville bruge, for det er motiverende for mig at kunne se meningen i det, jeg laver.
+- Jeg blev nysgerrig, da jeg læste at I arbejder med [teknologi] — det er noget jeg har rørt ved i mine egne projekter og gerne vil arbejde med i større skala.
+- Det motiverer mig, at I nævner [ordet i opslaget, f.eks. "ejerskab" / "hele vejen til produktion"], fordi det er sådan jeg allerede arbejder på mine egne projekter.
+- Stillingsopslaget beskriver en rolle, hvor man både skal kunne programmere og tale med brugerne. Det er nøjagtigt det overlap, jeg har uddannet mig til og gerne vil arbejde med.
+- Jeg søger jobbet fordi jeg vil bygge produkter, ikke bare features. Det er fedt at bygge noget stort og konkret som bliver en betydningsfuld del af samfundet.
+- Det motiverer mig at arbejde med kode, hvor der er en teknisk retning og noget velovervejet arkitektur; både fordi det er federe at arbejde med, men også fordi det er inspirerende og lærerigt.

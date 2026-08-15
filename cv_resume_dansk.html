@@ -10,72 +10,8 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <link rel="stylesheet" href="cv_resume_files/style.css">
+  <link rel="stylesheet" href="cv_resume_files/style_cv.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <style>
-    /* Right-aligned contact information */
-    .details {
-      text-align: right;
-    }
-
-    .details li {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      margin-bottom: 5px;
-    }
-
-    .details li i {
-      margin-right: 10px;
-      color: #555;
-      order: -1; /* Ensures icon is before text */
-    }
-
-    .small-heading {
-      font-size: 0.94em;
-    }
-
-    a.no-icon:before {
-      content: none !important;
-      display: none !important;
-    }
-
-    @media print {
-      /* Kill trailing space that spills onto page 2, avoiding a 2nd empty pdf-page when page 1 just barely fits */
-      body {
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;
-      }
-
-      /* Remove any stray bottom margin on the last section */
-      #interests {
-        margin-bottom: 0 !important;
-      }
-    }
-
-    /*
-    section#profile > p {
-      margin-top: 0.8em;
-    }
-    */
-
-    /* Compact skills section */
-    #skills > dl > dt,
-    #skills > dl > dd {
-      margin-top: 0.5em !important;
-    }
-
-    #skills > dl > dt:first-of-type,
-    #skills > dl > dd:first-of-type {
-      margin-top: 1.0em !important;
-    }
-
-    #interests > dl > dt:first-of-type,
-    #interests > dl > dd:first-of-type {
-      margin-top: 1.0em !important;
-    }
-
-  </style>
 </head>
 <body>
   <header itemscope="" itemtype="http://schema.org/Person" class="with-photo">
@@ -119,17 +55,14 @@
   <section id="profile" class="level2" style="margin-top: -2.0em; position: relative; z-index: 10;">
     <h2>Profil</h2>
     <p style="margin-top: 0.8em;">
-      Jonatan Rasmussen, civilingeniør i Menneskeorienteret Kunstig Intelligens (DTU).<br>
+      Jonatan Rasmussen, civilingeniør fra DTU med speciale i softwareudvikling og data.<br>
       Jeg er udvikleren bag hjemmesiden <a href="https://dtucourseanalyzer.pythonanywhere.com/" class="no-icon" target="_blank" rel="noopener">
       <em>DTU Course Analyzer</em></a> med 1000+ månedlige brugere.<br>
       Herudover vedligeholder jeg en spil-mod med 15.000 downloads samt diverse GitHub-projekter.
     </p>
     <p style="margin-top: 0.8em;">
-      <strong>Kort om mig:</strong> Jeg nørder software i min fritid og har gjort det siden teenageårene. At vedligeholde projekter<br>
-      har givet mig erfaring med konsekvensen af god og dårlig kode, og nu søger jeg at udvikle på et professionelt team!
-    </p>
-    <p style="margin-top: 0.8em;">
-      Teamarbejde i en stor kodebase er dog mere komplekst, og som den nye på holdet vil jeg lytte og lære af de mere erfarne.
+      <strong>Om mig:</strong> Jeg bygger software, som andre mennesker gider bruge. Det har jeg gjort siden teenageårene,<br>
+      og det har lært mig at arbejde brugerorienteret. Nu søger jeg et team, der ligesom mig sætter mennesket i fokus.
     </p>
   </section>
 
@@ -139,14 +72,14 @@
     <dl>
       <dt><strong>Open-source</strong></dt>
       <dd>
-        <p><a href="https://dtucourseanalyzer.pythonanywhere.com/" target="_blank"><strong>DTU Course Analyzer</strong></a> <em>| Google Analytics viser 1000+ månedlige brugere (fra danske IP-adresser)</em></p>
+        <p><a href="https://dtucourseanalyzer.pythonanywhere.com/" target="_blank"><strong>DTU Course Analyzer</strong></a> <em>| 1000+ månedlige danske brugere (Google Analytics), hele DTU kender den.</em></p>
         <p>Flask/Python backend, JS/Bootstrap frontend. Custom-built anbefalingsalgoritme og filter/søgefunktion.
-          Data-fetching pipeline og automatiseret testing. Statistik over 1700 kurser, hostet og driftet siden 2024.
+          Data-fetching pipeline og automatiseret testing. Statistik over 1700 kurser, bygget og driftet siden 2024.
           Besøgt af 5000+ DTU-studerende og vist på første søgeresultatsside hvis man Googler "DTU courses".</p>
       </dd>
       <dt><strong>Spil-modding</strong></dt>
       <dd>
-        <p><a href="https://github.com/JonatanRasmussen/world_of_warcraft_mod_mplus_say_callouts_weakaura" target="_blank" rel="noopener" ><strong>World of Warcraft mod</strong></a> <em>| Interface-udvidelse med ~15.000 downloads via WeakAura-frameworket.</em></p>
+        <p><a href="https://github.com/JonatanRasmussen/wow_projects_showcase" target="_blank" rel="noopener" ><strong>World of Warcraft mod</strong></a> <em>| Interface-udvidelse med ~15.000 downloads via WeakAura-frameworket.</em></p>
         <p>Performance-optimeret event-dreven Lua-kode som parser spillets combat-log.
           Opdateret gennem hver WoW-patch fra 2023-2025 (jeg skrev patch notes og tog aktivt imod bugs/feedback i kommentarsporet).
         </p>
@@ -211,7 +144,7 @@
         </p>-->
       <dt class="small-heading"><strong><em>Soft-skills</em></strong></dt>
       <dd>
-      <p>ISO-certificeret i projektledelse (<a href="https://app.diplomasafe.com/en-US/certificates/d4ed6104c209d39f37aadb75fbecaf5282734406b" class="no-icon" target="_blank" rel="noopener"><strong>ISO 21500</strong> &amp; <strong>ISO 21502</strong></a>).<br> <!--<a href="https://app.diplomasafe.com/en-US/certificates/d4ed6104c209d39f37aadb75fbecaf5282734406b" target="_blank" rel="noopener"></a>-->
+      <p>ISO-certificeret i projektledelse (<a href="https://app.diplomasafe.com/en-US/certificates/d4ed6104c209d39f37aadb75fbecaf5282734406b" class="no-icon" target="_blank" rel="noopener"><em>ISO 21500</em> &amp; <em>ISO 21502</em></a>).<br> <!--<a href="https://app.diplomasafe.com/en-US/certificates/d4ed6104c209d39f37aadb75fbecaf5282734406b" target="_blank" rel="noopener"></a>-->
         Jeg har været frivillig i Coding Pirates og er erfaren Dungeons & Dragons spilmester.<br>
         Desuden har jeg boet på kollegie i seks år, så jeg er vant til at indgå i et socialt fællesskab.
       </p>
